@@ -32,3 +32,6 @@
 [submodule "bundle/vim-hoogle"]
 	path = bundle/vim-hoogle
 	url = git://github.com/twinside/vim-hoogle.git
+[submodule "bundle/vim2hs"]
+	path = bundle/vim2hs
+	url = git://github.com/dag/vim2hs.git
