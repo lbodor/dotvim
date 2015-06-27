@@ -90,6 +90,8 @@ highlight DiffDelete cterm=none ctermfg=fg ctermbg=darkCyan gui=none guifg=fg gu
 highlight DiffChange cterm=none ctermfg=fg ctermbg=darkCyan gui=none guifg=fg guibg=Blue
 highlight DiffText cterm=none ctermfg=bg ctermbg=White gui=none guifg=bg guibg=White
 
+set diffopt+=vertical
+
 " invert comments (tcomment.vab)
 let @i = 'gcc'
 map gi :normal @i<CR>
