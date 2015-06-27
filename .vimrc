@@ -1,8 +1,8 @@
 color Tomorrow-Night
+syntax on
+
 runtime bundle/vim-pathogen/autoload/pathogen.vim 
 call pathogen#infect()
-
-syntax on
 
 set expandtab
 set shiftwidth=4
