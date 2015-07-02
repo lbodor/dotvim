@@ -1,8 +1,8 @@
 color Tomorrow-Night
+syntax on
+
 runtime bundle/vim-pathogen/autoload/pathogen.vim 
 call pathogen#infect()
-
-syntax on
 
 set expandtab
 set shiftwidth=4
@@ -89,6 +89,8 @@ highlight DiffAdd cterm=none ctermfg=fg ctermbg=darkCyan gui=none guifg=fg guibg
 highlight DiffDelete cterm=none ctermfg=fg ctermbg=darkCyan gui=none guifg=fg guibg=Blue
 highlight DiffChange cterm=none ctermfg=fg ctermbg=darkCyan gui=none guifg=fg guibg=Blue
 highlight DiffText cterm=none ctermfg=bg ctermbg=White gui=none guifg=bg guibg=White
+
+set diffopt+=vertical
 
 " invert comments (tcomment.vab)
 let @i = 'gcc'
