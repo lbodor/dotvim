@@ -108,8 +108,8 @@ set incsearch
 highlight Search ctermbg=black ctermfg=gray
 highlight Visual ctermfg=black ctermfg=white
 highlight Normal ctermfg=black ctermfg=gray
-let g:hdevtools_options = '-g-fdefer-type-errors -g-isrc'
-set tags=tags;
+let g:syntastic_haskell_hdevtools_args = '-g-fdefer-type-errors -g-isrc -g-Wall'
+set tags=tags;/,codex.tags;/
 set laststatus=0
 set noswapfile
 
