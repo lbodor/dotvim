@@ -92,6 +92,8 @@ highlight DiffText cterm=none ctermfg=bg ctermbg=White gui=none guifg=bg guibg=W
 
 set diffopt+=vertical
 
+let g:jedi#popup_on_dot = 0
+
 " invert comments (tcomment.vab)
 let @i = 'gcc'
 map gi :normal @i<CR>
