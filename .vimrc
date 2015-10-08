@@ -4,6 +4,10 @@ syntax on
 runtime bundle/vim-pathogen/autoload/pathogen.vim 
 call pathogen#infect()
 
+let g:lightline = {
+   \ 'colorscheme': 'wombat',
+   \ }
+
 set expandtab
 set shiftwidth=4
 set tabstop=4
