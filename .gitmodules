@@ -62,3 +62,6 @@
 [submodule "bundle/vim-annotations"]
 	path = bundle/vim-annotations
 	url = https://github.com/lbodor/vim-annotations.git
+[submodule "bundle/vim-nix"]
+	path = bundle/vim-nix
+	url = https://github.com/LnL7/vim-nix
