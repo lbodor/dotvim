@@ -85,6 +85,8 @@ au WinEnter * set nofen "no folding in vimdiff
 au WinLeave * set nofen "no folding in vimdiff
 set nofoldenable
 
+au BufRead,BufNewFile *.xjb setfiletype xml
+
 " spread out and insert (unimpaired)
 map []<space> [<space>k]<space>o
 map ][<space> ]<space>j[<space>O
