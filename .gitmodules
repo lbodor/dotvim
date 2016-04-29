@@ -65,3 +65,6 @@
 [submodule "bundle/vim-nix"]
 	path = bundle/vim-nix
 	url = https://github.com/LnL7/vim-nix
+[submodule "bundle/vim-git"]
+	path = bundle/vim-git
+	url = git@github.com:tpope/vim-git.git
