@@ -123,3 +123,14 @@ set noswapfile
 set hidden
 autocmd BufNewFile,BufRead fugitive://* set bufhidden=delete
 
+" switch back-and-forth between Code.java and CodeTest.java
+function! Test()
+    if @% =~ 'Test.java$'
+        let l:test = substitute(substitute(@%, '/test/', '/main/', ''), 'Test.java$', '.java', '')
+    else
+        let l:test = substitute(substitute(@%, '/main/', '/test/', ''), '.java$', 'Test.java', '')
+    endif
+    execute 'edit' l:test
+endfunction
+
+:command! Test :call Test()
