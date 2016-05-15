@@ -55,13 +55,15 @@ map gi :HdevtoolsInfo<CR>
 map gl :GhcModLint<CR>
 map tt :TagbarToggle<CR>
 
+let g:vim_annotations_offset = '/.liquid/'
+
 " (sytanstic)
 let g:syntastic_auto_loc_list=1
 let g:haskell_conceal_wide = 0
 let g:haskell_conceal_enumerations = 0
 let g:haskell_conceal = 0
 let g:syntastic_enable_highlighting = 0
-let g:syntastic_haskell_checkers=['hdevtools']
+let g:syntastic_haskell_checkers=['hdevtools', 'liquid']
 let g:syntastic_lhaskell_checkers=['hdevtools']
 let g:syntastic_check_on_wq=0
 let g:syntastic_echo_current_error=0
