@@ -74,3 +74,15 @@
 [submodule "bundle/maven-compiler.vim"]
 	path = bundle/maven-compiler.vim
 	url = https://github.com/JalaiAmitahl/maven-compiler.vim
+[submodule "bundle/vim-git"]
+	path = bundle/vim-git
+	url = git@github.com:tpope/vim-git.git
+[submodule "bundle/tsuquyomi"]
+	path = bundle/tsuquyomi
+	url = https://github.com/Quramy/tsuquyomi.git
+[submodule "bundle/vimproc.vim"]
+	path = bundle/vimproc.vim
+	url = https://github.com/Shougo/vimproc.vim.git
+[submodule "bundle/typescript-vim"]
+	path = bundle/typescript-vim
+	url = https://github.com/leafgarland/typescript-vim.git

@@ -66,6 +66,9 @@ let g:syntastic_lhaskell_checkers=['hdevtools']
 let g:syntastic_check_on_wq=0
 let g:syntastic_echo_current_error=0
 
+let g:tsuquyomi_disable_quickfix = 1
+let g:syntastic_typescript_checkers = ['tsuquyomi']
+
 set nrformats=octal,hex,alpha
 " set iskeyword=a-z,A-Z,_,.,39 " breaks fugitive diff
 set shortmess+=A
